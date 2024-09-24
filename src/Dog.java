@@ -1,14 +1,18 @@
 public class Dog extends  Animal {
     @Override
-    public static void move()
+    public void move()
     {
-        System.out.println("u can move");
+        System.out.println("walk");
     }
     @Override
-    public static void makeSound()
+    public void makeSound()
     {
-        System.out.println("animal sound");
+        System.out.println("bark");
 
+    }
+    public void eat()
+    {
+        System.out.println("meat");
     }
 
 }
