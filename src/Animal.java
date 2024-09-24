@@ -1,9 +1,9 @@
 public class Animal {
-    public static void move()
+    public void move()
     {
      System.out.println("u can move");
     }
-    public static void makeSound()
+    public void makeSound()
     {
         System.out.println("animal sound");
 
